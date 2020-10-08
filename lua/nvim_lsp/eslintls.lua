@@ -1,7 +1,7 @@
 local configs = require 'nvim_lsp/configs'
 local util = require 'nvim_lsp/util'
 
-configs.eslint = {
+configs.eslintls = {
   default_config = {
     cmd = {"npx", "--no-install", "eslint","lsp"};
     filetypes = {"javascript", "javascriptreact", "javascript.jsx"};
